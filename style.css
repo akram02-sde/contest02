@@ -7,10 +7,22 @@
     padding: 0px
 }
 
+#eg-1 {
+    display: inline-block;
+    margin-top: 50px;
+}
+#eg-2 {
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+
 #head {
     color: white;
     display: block;
     margin-left: 63px;
+    margin-top: 0px;
+    padding: 0px;
     
 }
 
@@ -129,16 +141,6 @@
 
 }
 
-#eg-2 {
-    color: white;
-}
-
-#eg-1 {
-    
-    font-weight: bold;
-}
-  
-
 #table {
     margin: auto;
     background-color: black;
@@ -190,7 +192,7 @@ tfoot td {
 }
 
 #Lorem {
-    display: inline-block;
+    display: block;
     font-size: 20px;
     width: 700px;
     height: 250px;
@@ -207,15 +209,16 @@ tfoot td {
 }
 
 #image {
-
     display: inline-block;
     background-image: url("jeff\ 1.png");
     background-size: cover;
     width: 500px;
     height: 500px;
     background-repeat: no-repeat;
-    background-position: left;
+    /* background-position: left; */
     margin-left: 800px;
     
 }
+
+
 
